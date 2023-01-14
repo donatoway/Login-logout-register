@@ -1,0 +1,19 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-pagina3',
+  templateUrl: './pagina3.component.html',
+  styleUrls: ['./pagina3.component.css']
+})
+export class Pagina3Component {
+  articolo=0;
+  longText=`L'elio (dal greco ἥλιος, hḕlios, "sole") è l'elemento chimico della tavola periodica che ha numero atomico 2 e simbolo He. È il secondo elemento, dopo l'idrogeno, ed è anche il secondo elemento del blocco s e il secondo e ultimo elemento del primo periodo del sistema periodico.È un gas nobile incolore, inodore, insapore, non tossico e inerte. Si presenta come gas monoatomico. Dopo l'idrogeno, è l'elemento più leggero e più abbondante nell'universo osservabile,[1] essendo presente in circa il 24% della massa totale elementare, che è più di 12 volte la massa di tutti gli elementi più pesanti insieme: la sua abbondanza è simile a questi dati sia nel Sole sia su Giove; ciò è dovuto all'altissima energia nucleare di legame (per nucleone) di elio-4 (4He) rispetto ai tre elementi successivi all'elio; questa energia di legame spiega anche perché è un prodotto sia della fusione nucleare sia del decadimento radioattivo. La maggior parte dell'elio presente nell'universo è l'elio-4, e si crede che si sia formato durante il Big Bang; grandi quantità di nuovo elio vengono continuamente create dalla fusione nucleare dell'idrogeno che avviene nelle stelle. Prende il nome dal dio greco del sole, Elio.
+
+  È l'elemento con il più basso punto di ebollizione fra tutti gli elementi. Può solidificare solo se sottoposto ad altissime pressioni.
+
+  In forma liquida viene utilizzato nella criogenia (il suo maggiore uso singolo, che utilizza circa un quarto della produzione), in particolare nel raffreddamento dei magneti superconduttori, con la principale applicazione commerciale rappresentata dalle apparecchiature per la risonanza magnetica nucleare; altri utilizzi industriali dell'elio sono la pressurizzazione e lo spurgo dei gas, la creazione di un'atmosfera protettiva per la saldatura ad arco e per processi particolari come la crescita di cristalli di silicio; un uso minore è quello di gas di sollevamento per palloni sonda e dirigibili oppure come gas nelle miscele per le immersioni di profondità.[2] Come con qualsiasi gas la cui densità sia diversa da quella dell'aria, inalando un piccolo volume di elio viene, temporaneamente, modificato il timbro e la qualità della voce umana. Nella ricerca scientifica, il comportamento delle due fasi fluide dell'elio-4 (elio I e l'elio II), è importante per i ricercatori che studiano la meccanica quantistica (in particolare la proprietà di superfluidità) e per quelli che sperimentano alcuni fenomeni, come la superconduttività, e i prodotti della materia vicino allo zero assoluto.
+
+  1:01
+  Laser ad elio e neon
+  Sulla Terra è relativamente raro: 5,2 ppm (parti per milione) in volume nell'atmosfera. La maggior parte dell'elio terrestre presente oggi è stato creato dal decadimento radioattivo naturale degli elementi radioattivi pesanti (torio e uranio, in particolare), in quanto le particelle alfa emesse da tali decadimenti sono composti da nuclei di elio-4. Questo elio radiogenico è intrappolato nel gas naturale in grandi concentrazioni, circa del 7% in volume, da cui viene estratto commercialmente grazie a un processo di separazione a bassa temperatura chiamato distillazione frazionata. In passato, l'elio era ritenuto una risorsa terrestre non rinnovabile poiché una volta rilasciato in atmosfera sfuggiva facilmente nello spazio.[3][4][5] Tuttavia, studi recenti suggeriscono che l'elio prodotto in profondità nella terra dal decadimento radioattivo sia in grado di raccogliersi in riserve di gas naturale in dosi maggiori di quelle attese;[6][7] in alcuni casi può essere rilasciato dall'attività vulcanica.[8]`
+}

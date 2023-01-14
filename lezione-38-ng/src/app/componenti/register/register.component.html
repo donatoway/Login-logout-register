@@ -1,0 +1,15 @@
+<h1>REGISTER</h1>
+<form #registerForm="ngForm" (ngSubmit)="onSubmit(registerForm)">
+   email
+  <mat-form-field appearance="fill">
+    <mat-label>Input</mat-label>
+    <input matInput type="email" name="email" required ngModel>
+  </mat-form-field>
+  password
+  <mat-form-field appearance="fill">
+    <mat-label>Input</mat-label>
+    <input matInput type="password" name="password" required ngModel>
+  </mat-form-field>
+  <button mat-raised-button color="primary" type="submit" [disabled]="!registerForm.valid">invia</button>
+  <h2>{{UserExist}}</h2>
+</form>
